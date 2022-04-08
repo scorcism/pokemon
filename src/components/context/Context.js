@@ -3,7 +3,7 @@ import { createContext, useEffect, useState } from "react";
 const NewContext = createContext();
 
 const Context = (props) => {
-    const [count, setCount] = useState(12);
+    const [count, setCount] = useState(24);
     const URL = `https://pokeapi.co/api/v2/pokemon`;
     const [mons, setMons] = useState(null);
     useEffect(() => {
