@@ -23,7 +23,7 @@ function Home() {
         <InfiniteScroll
           dataLength={count}
           next={fetchMoreData}
-          hasMore={count != 1126}
+          hasMore={count <= 500}
           loader={<Loader/>}
         >
           <div className="grid-container">
