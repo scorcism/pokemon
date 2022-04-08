@@ -56,3 +56,25 @@ padding: 10px 0px;
       grid-auto-columns: minmax(100px, auto);
     }
 }
+
+::selection{
+  background: pink;
+  color: black;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #d9e9e9; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #00e2e2; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #08bbbb;  
+}
